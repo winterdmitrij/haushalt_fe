@@ -1,5 +1,5 @@
 <div class="container navigation">
-    <nav class="navbar fixed-top border-bottom bg-dark" data-bs-theme="dark">
+    <nav class="navbar fixed-top bg-dark" data-bs-theme="dark">
         <div class="container-fluid justify-content-start">
             <!-- Logo -->
             <div class="logo me-2">
@@ -11,9 +11,9 @@
 
             <!-- Dropdawn-Menu -->
             <ul class="nav nav-tabs">
-                <!-- Dokumente -->
+                <!-- Documents -->
                 <li class="nav-item dropdown">
-                    <button class="btn btn-outline-success dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
+                    <button class="btn btn-outline-primary dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
                         aria-expanded="false">
                         <i class="bi bi-files me-2"></i>
                         Dokumente
@@ -46,11 +46,11 @@
                     </ul>
                 </li>
 
-                <!-- Berichte -->
+                <!-- Reports -->
                 <li class="nav-item dropdown">
-                    <button class="btn btn-outline-success dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
+                    <button class="btn btn-outline-danger dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
                         aria-expanded="false">
-                        <i class="bi bi-clipboard2-data"></i>
+                        <i class="bi bi-clipboard2-data me-2"></i>
                         Berichte
                     </button>
                     <ul class="dropdown-menu">
@@ -75,24 +75,64 @@
                     </ul>
                 </li>
 
-                <!-- Kataloge -->
-                <li class="nav-item"></li>
+                <!-- Catalogs -->
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-info dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
+                        aria-expanded="false">
+                        <i class="bi bi-info-circle me-2"></i>
+                        Kataloge
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-graph-up-arrow me-1" style="color: green;"></i>
+                                Konten
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-graph-down-arrow me-1" style="color: red;"></i>
+                                Posten
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-file-bar-graph me-1" style="color: blueviolet;"></i>
+                                Zeiträmen
+                            </a>
+                        </li>
+                    </ul>
+                </li>
 
-                <!-- Einstellungen -->
-                <li class="nav-item"></li>
+                <!-- Settings -->
+                <li class="nav-item dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle me-2" data-bs-toggle="dropdown" href="#"
+                        aria-expanded="false">
+                        <i class="bi bi-gear me-2"></i>
+                        Einstellungen
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-graph-up-arrow me-1" style="color: green;"></i>
+                                Backup
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-graph-down-arrow me-1" style="color: red;"></i>
+                                Ausgaben
+                            </a>
+                        </li>
+                        <li>
+                            <a class="dropdown-item" href="#">
+                                <i class="bi bi-file-bar-graph me-1" style="color: blueviolet;"></i>
+                                Kontostände
+                            </a>
+                        </li>
+                    </ul>
+                </li>
             </ul>
-
-            <!--  -->
-
-
-            <button class="btn btn-outline-success me-2">
-                <i class="bi bi-info-circle"></i>
-                Information
-            </button>
-            <button class="btn btn-outline-success me-2">
-                <i class="bi bi-gear"></i>
-                Einstellungen
-            </button>
         </div>
     </nav>
 </div>
